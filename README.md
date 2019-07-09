@@ -1,2 +1,2 @@
-# prismagram
-Instagram clone with Express + Prisma + React and React Native
+# prismadev
+test with Express + Prisma + React and React Native
