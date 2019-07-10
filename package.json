@@ -1,0 +1,27 @@
+{
+  "name": "prismadev",
+  "version": "1.0.0",
+  "description": "test with Express + Prisma + React and React Native",
+  "main": "index.js",
+  "repository": "https://github.com/head1ton/prismadev",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "@babel/register": "^7.4.4",
+    "babel-core": "7.0.0-bridge.0",
+    "dotenv": "^8.0.0",
+    "graphql-tools": "^4.0.5",
+    "graphql-yoga": "^1.18.0",
+    "merge-graphql-schemas": "^1.5.8",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "deploy": "prisma deploy",
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}

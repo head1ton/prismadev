@@ -1,0 +1,4 @@
+# typeDefs part
+type Query {
+    sayHello: String!
+}
