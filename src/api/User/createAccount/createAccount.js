@@ -1,8 +1,8 @@
-import { prisma } from "../../../../generated/prisma-client";
-
 export default {
     Mutation: {
+        //createAccount: async (_, args, { prisma }) => {
         createAccount: async (_, args) => {
+            //console.log(prisma);
             const {
                 username,
                 email,
