@@ -1,5 +1,6 @@
 type User {
     id: ID!
+    avatar: String
     username: String!
     email: String!
     firstName: String
@@ -9,7 +10,9 @@ type User {
     isSelf: Boolean!
     bio: String
     followers: [User!]!
+    followersCount: Int!
     following: [User!]!
+    followingCount: Int!
     posts: [Post!]!
     likes: [Like!]!
     comments: [Comment!]!
@@ -77,8 +80,8 @@ type Message {
     updatedAt: String
 }
 
-type UserProfile {
-    user: User!
-    posts: [Post!]!
-}
+# type UserProfile {
+#     user: User!
+#     posts: [Post!]!
+# }
 
